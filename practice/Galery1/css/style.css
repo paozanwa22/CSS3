@@ -1,5 +1,6 @@
 /* Style Utama */
 body {
+	/* font: ukuran/line-height jenisFont, cari tipe yang sans-serif; */
 	font: 18px/36px arial, sans-serif;
 	background-color: #ddd;
 }
@@ -8,7 +9,7 @@ h1 {
 	font-size: 80px;
 	margin: 50px 0;
 	text-align: center;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 1px 1px white; /* kekana kebawah blur color=white */
 }
 
 .container {
@@ -16,19 +17,19 @@ h1 {
 	background-color: white;
 	margin: auto;
 	padding: 30px;
-	box-shadow: 0 0 3px 3px rgba(0,0,0,.3);
+	box-shadow: 0 0 3px 3px rgba(0,0,0,.3); /* x-opset y-opset tebal blur rgba(0,0,0,transparan) */
 	border-radius: 5px;
 }
 
 .gallery li {
 	width: 120px;
 	height: 120px;
-	border-radius: 50%;
-	/* overflow: hidden; */
-	border: 5px solid #666;
-	float: left;
+	border-radius: 50%;  
+	/* overflow: hidden; */ 
+	border: 5px solid #666; /* tebal jenisGaris warna */
+	float: left; /* membuat li ke samping */
 	margin-right: 10px;
-	position: relative;
+	position: relative; /* naik satu dimensi */
 }
 
 .gallery li img {
@@ -41,20 +42,20 @@ h1 {
 	height: 120px;
 	background-color: rgba(200, 200, 200, .5);
 	border-radius: 50%;
-	position: absolute;
+	position: absolute; /* maju 1 dimensi dari containernya */
 	top: 0;
 	text-align: center;
 	line-height: 120px;
 	color: #333;
 	text-shadow: 1px 1px 1px #ddd;
-	opacity: 0;
-	transition: .3s;
+	opacity: 0; /* transparan sampai item tidak kelihatan */
+	transition: .3s; /* waktu tampil */
 	transform: scale(0) rotate(0);
 }
 
 .gallery li a:hover span {
-	opacity: 1;
-	transform: scale(1) rotate(360deg);
+	opacity: 1; /* membuat item kelihatan kembali */
+	transform: scale(1) rotate(360deg); /* scale(keadaan akhir) rotate(360deg)*/
 }
 
 

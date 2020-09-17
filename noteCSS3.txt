@@ -1,0 +1,35 @@
+web Programming UNPAS - 1/20
+//untuk penjelasan yang berbentuk gambar, silahkan kunjungi folder "explanation" (di atas file ini)
+//untuk melihat hasil latihan silahkan buka folder "practice"
+
+CSS3 - Intro
+CSS3 - Border Radius	//border-radius: 0 50% 50% 50%; (searah jarum jam yang dimulai dari atas kiri).
+CSS3 - Opacity	//memberi transparan pada element//opacity: .5; //.5 sama artinya 0.5
+CSS3 - RGBa & HSLa //rgba(read, green, blue, alpha atau transparan)memberi transparan pada warna
+
+CSS3 - Box Shadow (1-2) <insert> <x-offset><y-offset><blur> <spread> <color> //ini adalah urutan
+CSS3 - Box Shadow (2-2) //insert = membuat bayangan masuk ke dalam kotak //box-shadow: insert 0 0 15px 5px rgba(0,0,0,.5);
+			//spread = untuk mengatur besar bayangan
+			
+CSS3 - Text Shadow	//sama dengan box-shadow tapi tidak ada <insert> dan <spread>
+
+CSS3 - Linear Gradient	//bisa baground: ; atau baground-image: ;
+			//mengatur arah (bisa menggunakan sudut atau arah)
+			//color stop //memberi bobot warna yang berbeda
+
+CSS3 - Radial Gradient	//penjelasan ada di explanation
+
+CSS3 - Font Face 	//@font-face //untuk mengelola font face di CSS3
+			//font-family	//pada CSS versi 1
+			//fonts.google.com
+
+CSS3 - Web Font Generator
+CSS3 - Vendor Prefix
+CSS3 - Filter
+CSS3 - Transform
+CSS3 - Transition (Part 1)
+CSS3 - Transition (Part 2)
+CSS3 - Animation	//
+Membuat GALERI FOTO + LIGHTBOX dengan HTML & CSS3 (Bagian 1)
+Membuat GALERI FOTO + LIGHTBOX dengan HTML & CSS3 (Bagian 2)
+Menambahkan NAVIGASI pada LIGHTBOX
