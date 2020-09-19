@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: salmon;
+            /* animation: animasiKotak 2s ease; */ /* ini artinya, begitu browsernya di refresh maka animasi-nya akan langsung jalan */
+            animation: animasiKotak 2s ease 2 alternate forwards; /* urutan sorthand ada di folder exsplanation */
+
+            /* struktur */
+            /* animation: [name] [duration] [timing-functio] [delay] [iteration-count] [direction] [fill-mode] [play-state]; */
+            
+        }
+
+        .kotak:hover { /* ini boleh tidak di tulis  */
+            /* animation: animasiKotak 2s ease;  */ /* nilai ini bisa langsung di tulis di .kotak */
+        }
+
+        @keyframes animasiKotak {
+            /* jika hanya ada dua keadaan */
+            /* from {
+                width: 200px;
+
+            }
+
+            to {
+                width: 500px;
+            } */
+
+            /* lebih dari satu kondisi */
+            0% {
+                width: 200px;
+
+            }
+
+            50% {
+                width: 500px;
+                height: 200px;
+            }
+
+            100% {
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+</body>
+</html>

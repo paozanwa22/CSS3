@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+        /* transform: 
+            scale(angka), scaleX(angka), scaleY(angka) //membesar dan mengecil
+            rotate(deg), rotateX(deg), rotateY(deg) //berputar
+            skew(deg), skewX(deg), skewY(deg)   //membuat elemen menjadi miring
+            translate(px), translateX(px), translateY(px) //menggeser item tapi lebih baik dari margin, position
+         */
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 0;
+            transition: .5s; 
+        }
+
+        .kotak:hover {
+            /* transform: scale(2); akan membesar dua kali ukuran semula */
+            /* transform: scale(1.5, 2); */ /* akan membesar (sumbuX, sumbuY) */
+
+            /* transform: rotate(45deg); */ /* akan berputar searah jarum jam */
+            /* transform: rotateX(100deg);  */ /* akan berputar pada sumbu X */
+            /* transform: rotate(180deg) rotateX(180deg) rotateY(180deg); */ /* akan menggabungkan ketiga rotasi */
+            /* transform: translate(50px, 100px); */
+
+            /* transform: scale(2) rotate(180deg); */ /* membesar 2 kali ukuran semula, dan berputar 180 derajad */
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="kotak"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae aperiam aspernatur ipsam maxime ratione odio praesentium iste! A, temporibus ex, libero similique dolor, atque veritatis nam corrupti iste nisi quaerat.</p>
+
+</body>
+</html>

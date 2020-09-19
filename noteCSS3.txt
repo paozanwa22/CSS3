@@ -23,13 +23,21 @@ CSS3 - Font Face 	//@font-face //untuk mengelola font face di CSS3
 			//font-family	//pada CSS versi 1
 			//fonts.google.com
 
-CSS3 - Web Font Generator
-CSS3 - Vendor Prefix
-CSS3 - Filter
-CSS3 - Transform
-CSS3 - Transition (Part 1)
-CSS3 - Transition (Part 2)
-CSS3 - Animation	//
+CSS3 - Web Font Generator	//merubah format file TTF / OTF ke WOFF
+				//fontsquirrel.com //tempat @font-face
+				//hati-hati copyright (cari cara supaya tidak terkena copyright)
+CSS3 - Vendor Prefix	//supaya bisa CSS3 bis jalan di semua browser
+			//shouldinpfre.com
+			//caniuse.com
+			//http://pleeease.io/play/
+			//emmet 
+
+CSS3 - Filter		//memberikan efek visual
+CSS3 - Transform	//manipulasi format visual 2D & 3D tapi disini hanya yang 2D saja
+CSS3 - Transition (Part 1)  //merubah prubahan HTML secara Halus
+CSS3 - Transition (Part 2)  //urutan boleh tidak berututan transition: all 2s ease 2s; //transition: <property = widh heigt dll...> <time(waktu berlangsung)> <jenis animasi (function)> <delay(waktu tunggu)>
+CSS3 - Animation	// sama seperti transition tapi animation mempunyai beberapa keadaan
+
 Membuat GALERI FOTO + LIGHTBOX dengan HTML & CSS3 (Bagian 1)
 Membuat GALERI FOTO + LIGHTBOX dengan HTML & CSS3 (Bagian 2)
 Menambahkan NAVIGASI pada LIGHTBOX
