@@ -1,6 +1,5 @@
 web Programming UNPAS - 1/20
-//untuk penjelasan yang berbentuk gambar, silahkan kunjungi folder "explanation" (di atas file ini)
-//untuk melihat hasil latihan silahkan buka folder "practice"
+
 
 CSS3 - Intro
 CSS3 - Border Radius	//border-radius: 0 50% 50% 50%; (searah jarum jam yang dimulai dari atas kiri).
