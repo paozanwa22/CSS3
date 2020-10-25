@@ -1,0 +1,19 @@
+//Propterti Transform memungkinkan kita dapat memanipulasi format visual dari elemen HTML
+
+//transformasi	2D & 3D
+
+//transform: <fungsi>;
+  //fungsi transformasi
+    scale   	//memperbesar/memperkecil
+    rotate  	//memutar
+    skew    	//membuat condong/miring
+    translate  	//mengubah posisi
+
+    scale(angka), scaleX(angka), scaleY(angka)
+    rotate(deg), rotateX(deg), rotateY(deg)
+    skew(deg), skewX(deg), skewY(deg)
+    translate(px), translateX(px), translate(px)
+
+
+
+
